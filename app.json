@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CryptoApp",
-    "slug": "CryptoApp",
+    "slug": "crypto-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jul14n.cryptoapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jul14n.cryptoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5a29055f-7da6-469f-a5ef-28c14422f50c"
+      }
+    },
+    "owner": "jul14n"
   }
 }
